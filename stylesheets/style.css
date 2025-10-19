@@ -17,6 +17,11 @@ footer p {
 
 nav > ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 
 }
 
@@ -31,4 +36,30 @@ section {
    -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
    -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
    box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+}
+
+section > form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+
+}
+
+
+#referencias {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1rem;
+
+}
+
+#referencias > h2 {
+     flex: 0 0 100%;
+
+}
+
+#referencias > article {
+     flex: 1 1 calc(33.333% - 1rem);
+
 }
