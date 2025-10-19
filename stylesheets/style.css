@@ -63,3 +63,15 @@ section > form {
      flex: 1 1 calc(33.333% - 1rem);
 
 }
+
+#InformacionP {
+    border: none;
+    text-align: center;
+    box-shadow: none;
+}
+
+
+#multimedia {
+   
+text-align: center;
+}
